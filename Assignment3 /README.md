@@ -16,7 +16,9 @@ Assignment 3 – Task 1
 
 3. Variable Declaration and Definition vs Pointer Declaration and Definition.
 
-   Variable declaration & definition: int x = 5;
+   Variable declaration & definition:
+
+   int x = 5;
    
    Pointer declaration & definition:
 
