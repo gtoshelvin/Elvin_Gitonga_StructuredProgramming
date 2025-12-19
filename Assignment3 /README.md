@@ -22,9 +22,9 @@ Assignment 3 – Task 1
    
    Pointer declaration & definition:
 
-   int *p; //* accesses the value stored at an address
+   int *p; // * accesses the value stored at an address
 
-   p = &x; //& gets the address of a variable.
+   p = &x; // & gets the address of a variable.
    
 5. Dereferencing a Pointer.
 
