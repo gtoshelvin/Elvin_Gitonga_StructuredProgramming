@@ -2,12 +2,12 @@ Assignment 3 – Task 1
 
 1. Difference Between a Normal Variable and a Pointer
 
-   A normal variable stores an actual value in memory
-   A pointer stores the memory address of another variable.
-   A variable directly holds data.
-   A pointer indirectly accesses data by referencing its address.
-   A variable stores a value and accesses memory directly.
-   A pointer stores a memory address and accesses memory indirectly through dereferencing.
+   -A normal variable stores an actual value in memory.
+   -A pointer stores the memory address of another variable.
+   -A variable directly holds data.
+   -A pointer indirectly accesses data by referencing its address.
+   -A variable stores a value and accesses memory directly.
+   -A pointer stores a memory address and accesses memory indirectly through dereferencing.
 
 2. Variable Declaration and Definition vs Pointer Declaration and Definition
 
