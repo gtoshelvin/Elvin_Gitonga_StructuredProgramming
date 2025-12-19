@@ -18,11 +18,9 @@ Assignment 3 – Task 1
 
    Variable declaration & definition: int x = 5;
    
-   Pointer declaration & definition:
-
-    int *p;
+   Pointer declaration & definition: int *p;
    
-    p = &x;
+                                     p = &x;
    
    -& gets the address of a variable.
    
@@ -38,27 +36,27 @@ Assignment 3 – Task 1
 
 7. When Pointers Preferred Over Variables.
 
-   i.) When functions need to modify original data.
+When functions need to modify original data.
    
-  ii.) When Large data structures are passed efficiently.
+When Large data structures are passed efficiently.
 
-  Example 1: Swapping values.
+Example 1: Swapping values.
   
-  Example 2: Dynamic memory allocation.
+Example 2: Dynamic memory allocation.
 
 5. Limitations and Risks of Using Pointers.
 
-   i.) Can cause segmentation faults.
+Can cause segmentation faults.
    
-  ii.) Risk of accessing invalid memory.
+Risk of accessing invalid memory.
   
- iii.) More difficult to debug.
+More difficult to debug.
  
-  iv.) Improper use may lead to memory leaks.
+Improper use may lead to memory leaks.
 
 7. Call by Value vs Call by Reference.
 
-   i.) Call by Value- A copy of the variable’s value is passed to the function, so the original value is not changed.
+ i.) Call by Value- A copy of the variable’s value is passed to the function, so the original value is not changed.
 
            void addOne(int x) {
    
@@ -72,7 +70,7 @@ Assignment 3 – Task 1
    
            // num is still 5
    
-   ii.) Call by Reference-The address of the variable is passed to the function, allowing the original value to be modified.
+ii.) Call by Reference-The address of the variable is passed to the function, allowing the original value to be modified.
 
            void addOne(int *x) {
    
@@ -86,25 +84,25 @@ Assignment 3 – Task 1
    
            // num is now 6
 
-  9. Practical Scenarios for Call by Value and Call by Reference.
+9. Practical Scenarios for Call by Value and Call by Reference.
 
-      a. When Call by Value Is Preferred.
+a. When Call by Value Is Preferred.
      
-          -When performing calculations that only need the value (e.g., computing an average or square of a number)
+When performing calculations that only need the value (e.g., computing an average or square of a number)
      
-          -When working with small variables like integers or floats
+When working with small variables like integers or floats
      
-         Example use case:
+Example use case:
      
-         Passing a student’s marks to calculate a grade without changing the original marks.
+Passing a student’s marks to calculate a grade without changing the original marks.
 
-      b. When Call by Reference Is Preferred.
+b. When Call by Reference Is Preferred.
      
-         -Swapping values between variables
+Swapping values between variables
      
-         -Updating variables inside a function
+Updating variables inside a function
      
-         Example use case:
+Example use case:
      
-         Passing a variable to a function that updates a bank account balance.
+Passing a variable to a function that updates a bank account balance.
  
