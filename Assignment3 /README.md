@@ -54,7 +54,7 @@ Example 2: Dynamic memory allocation.
  
 -Improper use may lead to memory leaks.
 
-7. Call by Value vs Call by Reference.
+6. Call by Value vs Call by Reference.
 
  i.) Call by Value- A copy of the variable’s value is passed to the function, so the original value is not changed.
 
@@ -84,7 +84,7 @@ ii.) Call by Reference-The address of the variable is passed to the function, al
    
            // num is now 6
 
-9. Practical Scenarios for Call by Value and Call by Reference.
+7. Practical Scenarios for Call by Value and Call by Reference.
 
 a. When Call by Value Is Preferred.
      
