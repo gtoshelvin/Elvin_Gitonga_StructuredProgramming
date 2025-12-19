@@ -6,7 +6,7 @@ Assignment 3 – Task 1
    
    -A pointer stores the memory address of another variable.
    
-   -A variable directly holds data.
+   -A variable directly holds data
    
    -A pointer indirectly accesses data by referencing its address.
    
