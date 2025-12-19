@@ -36,9 +36,9 @@ Assignment 3 – Task 1
 
 7. When Pointers Preferred Over Variables.
 
-When functions need to modify original data.
+-When functions need to modify original data.
    
-When Large data structures are passed efficiently.
+-When Large data structures are passed efficiently.
 
 Example 1: Swapping values.
   
@@ -46,13 +46,13 @@ Example 2: Dynamic memory allocation.
 
 5. Limitations and Risks of Using Pointers.
 
-Can cause segmentation faults.
+-Can cause segmentation faults.
    
-Risk of accessing invalid memory.
+-Risk of accessing invalid memory.
   
-More difficult to debug.
+-More difficult to debug.
  
-Improper use may lead to memory leaks.
+-Improper use may lead to memory leaks.
 
 7. Call by Value vs Call by Reference.
 
@@ -88,9 +88,9 @@ ii.) Call by Reference-The address of the variable is passed to the function, al
 
 a. When Call by Value Is Preferred.
      
-When performing calculations that only need the value (e.g., computing an average or square of a number)
+-When performing calculations that only need the value (e.g., computing an average or square of a number)
      
-When working with small variables like integers or floats
+-When working with small variables like integers or floats
      
 Example use case:
      
@@ -98,9 +98,9 @@ Passing a student’s marks to calculate a grade without changing the original m
 
 b. When Call by Reference Is Preferred.
      
-Swapping values between variables
+-Swapping values between variables
      
-Updating variables inside a function
+-Updating variables inside a function
      
 Example use case:
      
