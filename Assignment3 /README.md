@@ -22,14 +22,10 @@ Assignment 3 – Task 1
    
    Pointer declaration & definition:
 
-   int *p;
+   int *p; //* accesses the value stored at an address
 
-   p = &x;
+   p = &x; //& gets the address of a variable.
    
-   -& gets the address of a variable.
-   
-   -* accesses the value stored at an address.
-
 5. Dereferencing a Pointer.
 
    Dereferencing means accessing or modifying the value stored at the memory address held by a pointer.eg
