@@ -18,9 +18,11 @@ Assignment 3 – Task 1
 
    Variable declaration & definition: int x = 5;
    
-   Pointer declaration & definition: int *p;
-   
-                                     p = &x;
+   Pointer declaration & definition:
+
+   int *p;
+
+   p = &x;
    
    -& gets the address of a variable.
    
