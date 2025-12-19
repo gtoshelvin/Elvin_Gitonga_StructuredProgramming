@@ -3,13 +3,18 @@ Assignment 3 – Task 1
 1. Difference Between a Normal Variable and a Pointer
 
    -A normal variable stores an actual value in memory.
+   
    -A pointer stores the memory address of another variable.
+   
    -A variable directly holds data.
+   
    -A pointer indirectly accesses data by referencing its address.
+   
    -A variable stores a value and accesses memory directly.
+   
    -A pointer stores a memory address and accesses memory indirectly through dereferencing.
 
-2. Variable Declaration and Definition vs Pointer Declaration and Definition
+3. Variable Declaration and Definition vs Pointer Declaration and Definition
 
    Variable declaration & definition: int x = 5;
    Pointer declaration & definition:  int *p;
@@ -17,13 +22,13 @@ Assignment 3 – Task 1
    & gets the address of a variable
    * accesses the value stored at an address
 
-3. Dereferencing a Pointer
+4. Dereferencing a Pointer
 
    Dereferencing means accessing or modifying the value stored at the memory address held by a pointer.eg
                     int x = 10;
                     int *p = &x; //This changes the value of x to 20
 
-4. When Pointers Preferred Over Variables
+5. When Pointers Preferred Over Variables
 
    i.) When functions need to modify original data.
   ii.) When Large data structures are passed efficiently.
