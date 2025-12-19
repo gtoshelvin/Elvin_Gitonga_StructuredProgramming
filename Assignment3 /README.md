@@ -31,7 +31,9 @@ Assignment 3 – Task 1
 Dereferencing means accessing or modifying the value stored at the memory address held by a pointer.eg
 
 int a = 10;
+
 int *p = &a;
+
 printf("%d", *p); //This prints the value 10.
 
 A pointer accesses a value by dereferencing it and can modify that value directly.
